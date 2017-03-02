@@ -13,10 +13,12 @@ uid_check(){
 script_help(){
   echo "This script automaticly install and configure Wordpress."
   echo -e "\nUsage: autowp.sh -d DOMAIN_NAME -e EMAIL"
-  echo "Example: wp.sh -d example.com -e user@example.com"
-  echo "     or: wp.sh -w -d example.com -e user@example.com"
-  echo "     -f -- ignore domain and email check"
-  echo "     -w -- create www.domain.ltd alias"
+  echo "Example: autowp.sh -d example.com -e user@example.com"
+  echo "or: autowp.sh -w -f -d example.com -e user@example.com"
+  echo "    -d -- domain name"
+  echo "    -e -- administrator email"
+  echo "    -f -- ignore domain and email check"
+  echo "    -w -- create www.domain.ltd alias"
 }
 
 options_parse(){
