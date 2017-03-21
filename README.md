@@ -4,7 +4,7 @@ I don't use it anymore. But probably it's still working.
 Or maybe someone intrested.
 
 ## Usage
-1. Run init.sh for init new Apache2 webserver.
+1. Run init.sh for init new Apache2/MySQL webserver.
 2. Run autowp.sh to create and autoconfigure new WordPress site.
 
 ```
